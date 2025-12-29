@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.screen {
+  width: 100vw;
+  min-height: 100vh;
+  min-height: 100svh;
+
+  background: linear-gradient(180deg, #d96b83, #f3c6cf);
+
+  display: flex;
+  justify-content: center; /* tengah vertikal */
+  align-items: center;     /* tengah horizontal */
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* VERTIKAL */
+  align-items: center;
+  gap: 16px;              /* jarak antar elemen */
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 180px;
+  scale: 250%;
+}
+
+/* Button */
+.btn-img {
+  display: inline-block;
+}
+
+.btn-img img {
+  width: 220px;      /* sesuaikan ukuran PNG */
+  cursor: pointer;
+  transition:0.5s ease;
+}
+
+.btn-img img:hover {
+  transform: scale(1.1);
+}
+
+.btn-img img:active {
+  transform: scale(0.97);
+}
+
+
+

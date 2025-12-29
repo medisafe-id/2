@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Full screen */
+.screen {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+
+  background: linear-gradient(180deg, #d96b83, #f3c6cf);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content */
+.content {
+  width: 100%;
+  max-width: 360px;
+ justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Images */
+.title {
+  width: 180px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 80px;
+  scale: 250%;
+}
+
+
+/* Form */
+.signup-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.signup-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #b94a63;
+  background: #fde9ee;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Button */
+.btn-img img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+  transition:0.5s ease;
+}
+
+.btn-img img:hover {
+  transform: scale(1.1);
+}
+
+.back-img img {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1000;
+  width: 30px;  
+  height: auto; 
+  transition:0.5s ease;
+}
+.back-img:hover img {
+  transform: scale(1.2);
+}
+
+.primary {
+  background: #9b3f63;
+  color: white;
+}
